@@ -1,0 +1,6 @@
+rarApp:
+  image: ubuntu/apache2
+  volumes:
+    - ~/Treinamentos/Docker/rar-app/app/:/var/www/html/
+  ports:
+    - 80:80

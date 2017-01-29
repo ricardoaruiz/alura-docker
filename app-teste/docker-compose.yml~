@@ -1,0 +1,7 @@
+appTeste:
+  build:
+    context: /home/ralmendro/Treinamentos/Docker/app-teste/
+    dockerfile: Dockerfile
+  volumes:
+    - ~/Treinamentos/Docker/app-teste/src/:/var/www/html
+  container_name: appTeste
